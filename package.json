@@ -1,0 +1,15 @@
+{
+  "name": "require-behavior",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --recursive --loader=testdouble --extension 'test.js' src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "testdouble": "^3.16.4"
+  }
+}
