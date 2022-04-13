@@ -8,6 +8,7 @@ describe("", function() {
 
   describe("", function() {
     beforeEach(function() {
+      td.replace("./createBackstory")
       this.createCharacter = td.replace("./createCharacter")
 
       this.subject = require("./createStory")
